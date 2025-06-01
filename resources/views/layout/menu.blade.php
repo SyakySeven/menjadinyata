@@ -17,7 +17,7 @@
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+   
    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"defer></script>
 </head>
 
@@ -26,7 +26,7 @@
       <div class="am-header-left">
          <a id="naviconLeft" href="" class="am-navicon d-none d-lg-flex"><i class="icon ion-navicon-round"></i></a>
          <a id="naviconLeftMobile" href="" class="am-navicon d-lg-none"><i class="icon ion-navicon-round"></i></a>
-         <a href="index.html" class="am-logo">The Challenger</a>
+         <a href= " {{ route ( 'dashboard.index' ) }} "> <i class="am-logo">The Challenger</i></a>
       </div>
 
       <div class="am-header-right">
